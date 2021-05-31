@@ -1,0 +1,121 @@
+
+header {
+    border-style: dashed;
+    border-color: black;
+    background-color: hsl(63, 56%, 38%);
+    display: flex;
+    justify-content: center;
+    color: white;
+    @font-face: Lucida Grande;
+    left: 10px;
+    height: 80px;
+    width: 57em;
+    position: fixed;
+    top: 0;
+
+
+}
+
+body {
+    background-color: hsl(74, 95%, 93%);
+@font-face: Lucida Grande;
+    text-align: justify;
+    margin: 10px;
+}
+
+main {
+    border-style: double;
+    border-color: hsl(63, 56%, 10%);
+    top: 85px;
+    margin:87px  0;
+
+}
+
+.shadow {
+
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-color: hsl(63, 56%, 10%);
+    background-color: hsl(62, 60%, 77%);
+    margin: 25px;
+    padding: 10px;
+
+
+}
+
+
+
+.borders, .ipsum, .lorum, .end {
+
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-color: hsl(63, 56%, 10%);
+    margin: 25px;
+    padding: 10px;
+    background-color: hsl(62, 60%, 77%);
+
+}
+
+div {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    margin: 15px;
+    background-color: hsl(23, 100%, 65%);
+    border-color: hsl(23, 100%, 65%);
+    display: inline-flex;
+}
+
+.circle-one {
+    box-shadow: 2px 2px 5px 2px #9999;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    margin: 15px;
+    display: inline-grid;
+}
+
+.circle-two {
+    box-shadow: 5px 4px 3px -.4px black;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    margin: 15px;
+    display: inline-flex;
+}
+
+
+
+
+
+
+/* box-shadow:  2px 2px 4px 2px #7777; */
+
+
+/* 5px 4px 3px -.4px black; */
+
+
+ /* box-shadow:  1px 1px 3px .4px #7777; /*
+
+
+/*box-shadow:  2px 2px 5px 2px #9999;*/
+
+
+
+
+
+
+
+
+
+
